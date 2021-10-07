@@ -1,0 +1,77 @@
+/* Import Font Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  background-color: #a8dadc;
+}
+
+.wrapper {
+  background-color: #f1faee;
+  margin: 50px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  background-color: #a8dadc;
+  border-radius: 30px 0 0 30px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+.imgen {
+  height: 300px;
+  position: relative;
+}
+.right {
+  background-color: #f1faee;
+  border-radius: 0px 30px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 40px 200px;
+}
+.nav_bar {
+  background-color: #f1faee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-bottom: 30px;
+}
+.nav_home {
+  background-color: #f1faee;
+}
+.nav_about {
+  background-color: #f1faee;
+}
+.nav_contact {
+  background-color: #f1faee;
+}
+.tag {
+  background-color: #f1faee;
+  padding-bottom: 20px;
+}
+.highlite {
+  background-color: #1d3557;
+  color: white;
+  padding: 0px 4px;
+}
+.name_title {
+  background-color: #f1faee;
+  display: flex;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+.description {
+  background-color: #f1faee;
+  display: flex;
+  text-align: justify;
+  padding-bottom: 30px;
+  line-height: 1.6;
+}
+.more {
+}
