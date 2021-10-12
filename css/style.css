@@ -13,32 +13,62 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: row;
+  /* justify-content: center; */
 }
 
-.left {
-  background-color: #a8dadc;
-  border-radius: 30px 0 0 30px;
-  width: 1000px;
-  display: flex;
-  align-items: center;
-}
-.imgen {
-  height: 300px;
-  position: relative;
-}
-.right {
+.info {
   background-color: #f1faee;
-  border-radius: 0px 30px 30px 0px;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
-  padding: 40px 40px 40px 200px;
+  padding: 40px 40px 40px 40px;
+}
+.left {
+  background-color: #f1faee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.video {
+  padding: 40px;
+  justify-content: center;
+}
+.img_profile {
+  width: 250px;
+}
+.social {
+  background-color: #f1faee;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  background-color: #f1faee;
+  width: 30px;
+}
+a {
+  background-color: #f1faee;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav:hover {
+  color: #a8dadc;
+}
+
+.right {
+  padding-left: 3rem;
+  background-color: #f1faee;
 }
 .nav_bar {
   background-color: #f1faee;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 200px;
+  padding-left: 60%;
   padding-bottom: 30px;
 }
 .nav_home {
@@ -73,5 +103,43 @@
   padding-bottom: 30px;
   line-height: 1.6;
 }
-.more {
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.info_wrapper {
+  background-color: #f1faee;
+  padding: 2rem;
+}
+p {
+  background-color: #f1faee;
+}
+.map_button {
+  background-color: #f1faee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button {
+  background-color: #f1faee;
+  margin: 1rem 0;
+  padding: 4px;
+  background-color: #5491f5;
+  border-radius: 5px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #79a9f7;
+}
+#map {
+  height: 350px;
+  width: 350px;
+}
+.disable {
+  background-color: #999a9b;
+  color: white;
+  margin: 1rem 0;
+  padding: 4px;
+  border-radius: 5px;
 }
